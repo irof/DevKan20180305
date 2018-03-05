@@ -1,4 +1,4 @@
-package application;
+package todo.application;
 
 import domain.Task;
 import domain.TaskName;

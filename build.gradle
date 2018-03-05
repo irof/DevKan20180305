@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter'
+    compile 'org.springframework.shell:spring-shell-starter:2.0.0.RELEASE'
 
     testCompile 'org.junit.jupiter:junit-jupiter-api'
     testRuntime 'org.junit.jupiter:junit-jupiter-engine'

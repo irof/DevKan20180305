@@ -1,8 +1,10 @@
-package application;
+package todo.application;
 
 import domain.Task;
 import domain.Tasks;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TodoService {
 
     private Tasks tasks = new Tasks();
