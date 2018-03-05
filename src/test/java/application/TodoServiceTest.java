@@ -1,5 +1,7 @@
 package application;
 
+import domain.Task;
+import domain.TaskName;
 import domain.Tasks;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +12,12 @@ class TodoServiceTest {
     @Test
     void やることがとれる() {
         TodoService sut = new TodoService();
+
+        Task task = new Task(new TaskName("yarukoto"));
+        sut.add(task);
+
         Tasks actual = sut.tasks();
-        assertThat(actual).isNotNull();
+        assertThat(actual.asText())
+                .contains("yarukoto");
     }
 }

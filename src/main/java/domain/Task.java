@@ -2,8 +2,13 @@ package domain;
 
 public class Task {
 
-    TaskName name;
+    private final TaskName taskName;
 
 
     Status status;
+
+    public Task(TaskName taskName) {
+
+        this.taskName = taskName;
+    }
 }
