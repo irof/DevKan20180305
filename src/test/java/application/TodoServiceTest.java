@@ -10,7 +10,7 @@ class TodoServiceTest {
     @Test
     void やることがとれる() {
         TodoService sut = new TodoService();
-        Tasks actual = sut.todos();
+        Tasks actual = sut.tasks();
         assertThat(actual).isNotNull();
     }
 }
