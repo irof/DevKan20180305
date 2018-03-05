@@ -16,3 +16,12 @@ https://devlove-kansai.doorkeeper.jp/events/70481
 
 間違っても完成品としてのお手本にはしないでください。
 
+# 動かし方
+
+```
+./gradlew clean build
+java -jar build/libs/DevKan20180305.jar
+```
+
+`shell:>` が出たら `help` を叩いてみてください。
+
