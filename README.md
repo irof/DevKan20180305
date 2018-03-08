@@ -1,13 +1,12 @@
 # これはなに
 
-DevLOVE関西 2018-03-05T19:30 あるエンジニアがプログラムを紡いでいく様を見てみる
-https://devlove-kansai.doorkeeper.jp/events/70481
+[DevLOVE関西 2018-03-05T19:30 あるエンジニアがプログラムを紡いでいく様を見てみる](https://devlove-kansai.doorkeeper.jp/events/70481)
 
 このイベントでライブコーディングしたものです。
 ブログとあわせて参照するものとして公開します。
 
 - http://irof.hateblo.jp/entry/2018/03/05/235325
-- (追加予定)
+- http://irof.hateblo.jp/entry/2018/03/09/021709
 
 # 注意
 
